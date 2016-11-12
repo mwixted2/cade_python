@@ -28,7 +28,7 @@ while guessesTaken < :
 		print("")
 
 	if guess > number:
-		#print("Your guess is too low")
+		#print("Your guess is too high")
 		print("")
 
 	if guess == number:
