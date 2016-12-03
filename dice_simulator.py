@@ -9,13 +9,13 @@ max =
 #roll_again = "yes"
 roll_again = 
 
-#put a number before the colon
-while roll_again ==  :
+#say yes before the colon
+while roll_again ==  "yes":
 	print "Rolling the dice..."
 	print "The values are..."
 	#random.randint(min, max)
 	print random.randint(, )
 	print random.randint(, )
 
-	#raw_input("yes")
-	roll_again = raw_input("")
+	#raw_input("Do you want to roll again?")
+	roll_again = raw_input()
